@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 
 const app = express();
 
@@ -12,8 +13,10 @@ app.get('/', (req, res) => {
 	res.render('home');
 });
 
-server.listen(4000, () => {
-	console.log('Up 4000 ...');
+PORT = process.env.PORT || 4000;
+
+server.listen(PORT, () => {
+	console.log(`Up ${PORT} ...`);
 });
 
 io.on('connection', (socket) => {
