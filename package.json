@@ -1,26 +1,27 @@
 {
-  "name": "pro12",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "socket.io": "^4.0.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mohammed-khamees/pro12.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mohammed-khamees/pro12/issues"
-  },
-  "homepage": "https://github.com/mohammed-khamees/pro12#readme"
+	"name": "pro12",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"ejs": "^3.1.6",
+		"express": "^4.17.1",
+		"socket.io": "^4.0.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mohammed-khamees/pro12.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mohammed-khamees/pro12/issues"
+	},
+	"homepage": "https://github.com/mohammed-khamees/pro12#readme"
 }
